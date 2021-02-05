@@ -1,1 +1,1 @@
-# WPFApp-Trainin
+# WPFApp-Training
