@@ -1,0 +1,102 @@
+02/04/2021 08:56:10 Application starting up.
+02/04/2021 08:56:31 HTTP "GET" "/" responded 404 in 297.2698 ms
+02/04/2021 08:57:34 Generate all list.
+02/04/2021 08:57:44 Generated {Count()} list(s).
+02/04/2021 08:57:44 HTTP "GET" "/api/ListProperty/GetList" responded 200 in 12791.3817 ms
+02/04/2021 09:15:44 Generate all list.
+02/04/2021 09:15:45 Generated {Count()} list(s).
+02/04/2021 09:15:45 HTTP "GET" "/api/ListProperty/GetList" responded 200 in 123.1024 ms
+02/04/2021 09:16:33 Generate all list.
+02/04/2021 09:16:33 Generated {Count()} list(s).
+02/04/2021 09:16:33 HTTP "GET" "/api/ListProperty/GetList" responded 200 in 69.9051 ms
+02/04/2021 09:20:06 Application starting up.
+02/04/2021 09:21:38 Generate all list.
+02/04/2021 09:21:43 Generated 6 list(s).
+02/04/2021 09:21:43 HTTP "GET" "/api/ListProperty/GetList" responded 200 in 7175.1045 ms
+02/04/2021 09:32:05 Add new list, "Entities.Model.ListProperty"
+02/04/2021 09:32:08 HTTP "POST" "/api/ListProperty/InsertList" responded 200 in 3325.6659 ms
+02/04/2021 09:32:21 Generate all list.
+02/04/2021 09:32:21 Generated 7 list(s).
+02/04/2021 09:32:21 HTTP "GET" "/api/ListProperty/GetList" responded 200 in 66.3821 ms
+02/04/2021 10:06:43 Application starting up.
+02/04/2021 10:08:39 Application starting up.
+02/04/2021 10:09:18 Generate all list.
+02/04/2021 10:09:22 Generated 7 list(s).
+02/04/2021 10:09:22 HTTP "GET" "/api/ListProperty/GetList" responded 200 in 6895.6066 ms
+02/04/2021 10:15:05 Add list, "logtest addname", "logtest adddesc".
+02/04/2021 10:15:06 HTTP "POST" "/api/ListProperty/InsertList" responded 200 in 1234.7101 ms
+02/04/2021 14:02:47 Application starting up.
+02/04/2021 14:03:32 Generate all list.
+02/04/2021 14:03:37 Generated 8 list(s).
+02/04/2021 14:03:37 HTTP "GET" "/api/ListProperty/GetList" responded 200 in 8606.2803 ms
+02/04/2021 14:04:28 Update list, 6, "this is a test updatename", "this is a test udpatedesc".
+02/04/2021 14:04:29 HTTP "PUT" "/api/ListProperty/UpdateList" responded 200 in 1143.5292 ms
+02/04/2021 14:04:40 Generate all list.
+02/04/2021 14:04:40 Generated 8 list(s).
+02/04/2021 14:04:40 HTTP "GET" "/api/ListProperty/GetList" responded 200 in 175.5791 ms
+02/04/2021 14:31:48 Application starting up.
+02/04/2021 14:32:58 Update list, 6, "testUpdate name", "testUpdate desc".
+02/04/2021 14:33:03 HTTP "PUT" "/api/ListProperty/UpdateList" responded 200 in 10174.4675 ms
+02/04/2021 14:33:13 Generate all list.
+02/04/2021 14:33:13 Generated 8 list(s).
+02/04/2021 14:33:13 HTTP "GET" "/api/ListProperty/GetList" responded 200 in 450.1566 ms
+02/04/2021 15:55:40 Application starting up.
+02/04/2021 15:56:53 Generate all list.
+02/04/2021 15:56:57 Generated 8 list(s).
+02/04/2021 15:56:57 HTTP "GET" "/api/ListProperty/GetList" responded 200 in 5617.2796 ms
+02/04/2021 15:57:20 Generating items with ListID: 6.
+02/04/2021 15:57:20 Generated {Count()} item(s).
+02/04/2021 15:57:20 HTTP "GET" "/api/ItemProperty/GetItems?ListID=6" responded 200 in 518.7196 ms
+02/04/2021 15:59:09 Adding new item, ListID: 6, ItemName: "test additemname", ItemDesc: "test additemdesc", ItemStatus: 1.
+02/04/2021 15:59:09 HTTP "POST" "/api/ItemProperty/InsertItem" responded 200 in 984.0943 ms
+02/04/2021 15:59:26 Adding new item, ListID: 6, ItemName: "test additemname - 1", ItemDesc: "test additemdesc - 1", ItemStatus: 0.
+02/04/2021 15:59:26 HTTP "POST" "/api/ItemProperty/InsertItem" responded 200 in 292.0690 ms
+02/04/2021 15:59:33 Generating items with ListID: 6.
+02/04/2021 15:59:33 Generated {Count()} item(s).
+02/04/2021 15:59:33 HTTP "GET" "/api/ItemProperty/GetItems?ListID=6" responded 200 in 173.8733 ms
+02/04/2021 16:00:21 Update item, ItemID: 12, ListID: 6, ItemName: "test updatename -0", ItemDesc: "test updateDesc -0", ItemStatus: 0.
+02/04/2021 16:00:21 HTTP "PUT" "/api/ItemProperty/UpdateItem" responded 200 in 553.3362 ms
+02/04/2021 16:00:27 Generating items with ListID: 6.
+02/04/2021 16:00:27 Generated {Count()} item(s).
+02/04/2021 16:00:27 HTTP "GET" "/api/ItemProperty/GetItems?ListID=6" responded 200 in 109.5766 ms
+02/04/2021 16:00:41 Delete item by ItemID, ItemID: 13.
+02/04/2021 16:00:41 HTTP "DELETE" "/api/ItemProperty/DeleteByItemID/13" responded 200 in 393.5896 ms
+02/04/2021 16:00:47 Generating items with ListID: 6.
+02/04/2021 16:00:47 Generated {Count()} item(s).
+02/04/2021 16:00:47 HTTP "GET" "/api/ItemProperty/GetItems?ListID=6" responded 200 in 307.0451 ms
+02/04/2021 16:00:54 Delete item by ItemID, ItemID: 13.
+02/04/2021 16:01:16 Delete item by ItemID, ItemID: 13.Failed. "System.InvalidOperationException: Sequence contains no elements
+   at System.Linq.ThrowHelper.ThrowNoElementsException()
+   at System.Linq.Enumerable.Single[TSource](IEnumerable`1 source)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.Execute[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryProvider.Execute[TResult](Expression expression)
+   at System.Linq.Queryable.First[TSource](IQueryable`1 source, Expression`1 predicate)
+   at Infra.Repository.ItemPropertyRepository.GetSelectedItemPropertyByItemID(Int32 ItemID) in C:\Users\Brianna Louie\source\repos\WpfApp_Api\Infra\Repository\ItemPropertyRepository.cs:line 92
+   at Infra.Repository.ItemPropertyRepository.DeleteItemByID(Int32 ItemID) in C:\Users\Brianna Louie\source\repos\WpfApp_Api\Infra\Repository\ItemPropertyRepository.cs:line 62
+   at WpfApp_Api.Controllers.ItemPropertiesController.DeleteByItemID(Int32 ItemID) in C:\Users\Brianna Louie\source\repos\WpfApp_Api\WpfApp_Api\Controllers\ItemPropertiesController.cs:line 87"
+02/04/2021 16:01:16 HTTP "DELETE" "/api/ItemProperty/DeleteByItemID/13" responded 200 in 21945.9935 ms
+02/04/2021 16:01:25 Generating items with ListID: 6.
+02/04/2021 16:01:26 Generated {Count()} item(s).
+02/04/2021 16:01:26 HTTP "GET" "/api/ItemProperty/GetItems?ListID=6" responded 200 in 665.5321 ms
+02/04/2021 16:01:50 HTTP "POST" "/api/ItemProperty/InsertItem" responded 400 in 167.6870 ms
+02/04/2021 16:01:53 Generating items with ListID: 6.
+02/04/2021 16:01:54 Generated {Count()} item(s).
+02/04/2021 16:01:54 HTTP "GET" "/api/ItemProperty/GetItems?ListID=6" responded 200 in 158.1647 ms
+02/04/2021 16:01:56 Generating items with ListID: 6.
+02/04/2021 16:01:56 Generated {Count()} item(s).
+02/04/2021 16:01:56 HTTP "GET" "/api/ItemProperty/GetItems?ListID=6" responded 200 in 71.8316 ms
+02/04/2021 16:01:57 Generating items with ListID: 6.
+02/04/2021 16:01:57 Generated {Count()} item(s).
+02/04/2021 16:01:57 HTTP "GET" "/api/ItemProperty/GetItems?ListID=6" responded 200 in 68.9773 ms
+02/04/2021 16:02:01 HTTP "POST" "/api/ItemProperty/InsertItem" responded 400 in 2.3577 ms
+02/04/2021 16:02:13 HTTP "POST" "/api/ItemProperty/InsertItem" responded 400 in 59.0904 ms
+02/04/2021 16:02:24 Adding new item, ListID: 6, ItemName: "test additemname - 2", ItemDesc: "test additemdesc - 2", ItemStatus: 1.
+02/04/2021 16:02:25 HTTP "POST" "/api/ItemProperty/InsertItem" responded 200 in 317.0081 ms
+02/04/2021 16:02:27 Generating items with ListID: 6.
+02/04/2021 16:02:27 Generated {Count()} item(s).
+02/04/2021 16:02:27 HTTP "GET" "/api/ItemProperty/GetItems?ListID=6" responded 200 in 204.4857 ms
+02/04/2021 16:02:39 Delete item by ListID, ListID: 6.
+02/04/2021 16:02:39 HTTP "DELETE" "/api/ItemProperty/DeleteByListID/6" responded 200 in 246.0819 ms
+02/04/2021 16:02:43 Generating items with ListID: 6.
+02/04/2021 16:02:43 Generated {Count()} item(s).
+02/04/2021 16:02:43 HTTP "GET" "/api/ItemProperty/GetItems?ListID=6" responded 200 in 139.3410 ms

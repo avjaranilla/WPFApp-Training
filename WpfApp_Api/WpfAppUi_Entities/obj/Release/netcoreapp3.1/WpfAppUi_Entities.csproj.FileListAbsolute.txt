@@ -1,0 +1,9 @@
+C:\Users\Brianna Louie\source\repos\WpfApp_Api\WpfAppUi_Entities\bin\Release\netcoreapp3.1\WpfAppUi_Entities.deps.json
+C:\Users\Brianna Louie\source\repos\WpfApp_Api\WpfAppUi_Entities\bin\Release\netcoreapp3.1\WpfAppUi_Entities.dll
+C:\Users\Brianna Louie\source\repos\WpfApp_Api\WpfAppUi_Entities\bin\Release\netcoreapp3.1\WpfAppUi_Entities.pdb
+C:\Users\Brianna Louie\source\repos\WpfApp_Api\WpfAppUi_Entities\obj\Release\netcoreapp3.1\WpfAppUi_Entities.AssemblyInfoInputs.cache
+C:\Users\Brianna Louie\source\repos\WpfApp_Api\WpfAppUi_Entities\obj\Release\netcoreapp3.1\WpfAppUi_Entities.AssemblyInfo.cs
+C:\Users\Brianna Louie\source\repos\WpfApp_Api\WpfAppUi_Entities\obj\Release\netcoreapp3.1\WpfAppUi_Entities.csproj.CoreCompileInputs.cache
+C:\Users\Brianna Louie\source\repos\WpfApp_Api\WpfAppUi_Entities\obj\Release\netcoreapp3.1\WpfAppUi_Entities.dll
+C:\Users\Brianna Louie\source\repos\WpfApp_Api\WpfAppUi_Entities\obj\Release\netcoreapp3.1\WpfAppUi_Entities.pdb
+C:\Users\Brianna Louie\source\repos\WpfApp_Api\WpfAppUi_Entities\obj\Release\netcoreapp3.1\WpfAppUi_Entities.csprojAssemblyReference.cache
