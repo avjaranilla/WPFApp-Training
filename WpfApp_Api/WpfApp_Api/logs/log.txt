@@ -1,0 +1,452 @@
+02/04/2021 08:56:10 Application starting up.
+02/04/2021 08:56:31 HTTP "GET" "/" responded 404 in 297.2698 ms
+02/04/2021 08:57:34 Generate all list.
+02/04/2021 08:57:44 Generated {Count()} list(s).
+02/04/2021 08:57:44 HTTP "GET" "/api/ListProperty/GetList" responded 200 in 12791.3817 ms
+02/04/2021 09:15:44 Generate all list.
+02/04/2021 09:15:45 Generated {Count()} list(s).
+02/04/2021 09:15:45 HTTP "GET" "/api/ListProperty/GetList" responded 200 in 123.1024 ms
+02/04/2021 09:16:33 Generate all list.
+02/04/2021 09:16:33 Generated {Count()} list(s).
+02/04/2021 09:16:33 HTTP "GET" "/api/ListProperty/GetList" responded 200 in 69.9051 ms
+02/04/2021 09:20:06 Application starting up.
+02/04/2021 09:21:38 Generate all list.
+02/04/2021 09:21:43 Generated 6 list(s).
+02/04/2021 09:21:43 HTTP "GET" "/api/ListProperty/GetList" responded 200 in 7175.1045 ms
+02/04/2021 09:32:05 Add new list, "Entities.Model.ListProperty"
+02/04/2021 09:32:08 HTTP "POST" "/api/ListProperty/InsertList" responded 200 in 3325.6659 ms
+02/04/2021 09:32:21 Generate all list.
+02/04/2021 09:32:21 Generated 7 list(s).
+02/04/2021 09:32:21 HTTP "GET" "/api/ListProperty/GetList" responded 200 in 66.3821 ms
+02/04/2021 10:06:43 Application starting up.
+02/04/2021 10:08:39 Application starting up.
+02/04/2021 10:09:18 Generate all list.
+02/04/2021 10:09:22 Generated 7 list(s).
+02/04/2021 10:09:22 HTTP "GET" "/api/ListProperty/GetList" responded 200 in 6895.6066 ms
+02/04/2021 10:15:05 Add list, "logtest addname", "logtest adddesc".
+02/04/2021 10:15:06 HTTP "POST" "/api/ListProperty/InsertList" responded 200 in 1234.7101 ms
+02/04/2021 14:02:47 Application starting up.
+02/04/2021 14:03:32 Generate all list.
+02/04/2021 14:03:37 Generated 8 list(s).
+02/04/2021 14:03:37 HTTP "GET" "/api/ListProperty/GetList" responded 200 in 8606.2803 ms
+02/04/2021 14:04:28 Update list, 6, "this is a test updatename", "this is a test udpatedesc".
+02/04/2021 14:04:29 HTTP "PUT" "/api/ListProperty/UpdateList" responded 200 in 1143.5292 ms
+02/04/2021 14:04:40 Generate all list.
+02/04/2021 14:04:40 Generated 8 list(s).
+02/04/2021 14:04:40 HTTP "GET" "/api/ListProperty/GetList" responded 200 in 175.5791 ms
+02/04/2021 14:31:48 Application starting up.
+02/04/2021 14:32:58 Update list, 6, "testUpdate name", "testUpdate desc".
+02/04/2021 14:33:03 HTTP "PUT" "/api/ListProperty/UpdateList" responded 200 in 10174.4675 ms
+02/04/2021 14:33:13 Generate all list.
+02/04/2021 14:33:13 Generated 8 list(s).
+02/04/2021 14:33:13 HTTP "GET" "/api/ListProperty/GetList" responded 200 in 450.1566 ms
+02/04/2021 15:55:40 Application starting up.
+02/04/2021 15:56:53 Generate all list.
+02/04/2021 15:56:57 Generated 8 list(s).
+02/04/2021 15:56:57 HTTP "GET" "/api/ListProperty/GetList" responded 200 in 5617.2796 ms
+02/04/2021 15:57:20 Generating items with ListID: 6.
+02/04/2021 15:57:20 Generated {Count()} item(s).
+02/04/2021 15:57:20 HTTP "GET" "/api/ItemProperty/GetItems?ListID=6" responded 200 in 518.7196 ms
+02/04/2021 15:59:09 Adding new item, ListID: 6, ItemName: "test additemname", ItemDesc: "test additemdesc", ItemStatus: 1.
+02/04/2021 15:59:09 HTTP "POST" "/api/ItemProperty/InsertItem" responded 200 in 984.0943 ms
+02/04/2021 15:59:26 Adding new item, ListID: 6, ItemName: "test additemname - 1", ItemDesc: "test additemdesc - 1", ItemStatus: 0.
+02/04/2021 15:59:26 HTTP "POST" "/api/ItemProperty/InsertItem" responded 200 in 292.0690 ms
+02/04/2021 15:59:33 Generating items with ListID: 6.
+02/04/2021 15:59:33 Generated {Count()} item(s).
+02/04/2021 15:59:33 HTTP "GET" "/api/ItemProperty/GetItems?ListID=6" responded 200 in 173.8733 ms
+02/04/2021 16:00:21 Update item, ItemID: 12, ListID: 6, ItemName: "test updatename -0", ItemDesc: "test updateDesc -0", ItemStatus: 0.
+02/04/2021 16:00:21 HTTP "PUT" "/api/ItemProperty/UpdateItem" responded 200 in 553.3362 ms
+02/04/2021 16:00:27 Generating items with ListID: 6.
+02/04/2021 16:00:27 Generated {Count()} item(s).
+02/04/2021 16:00:27 HTTP "GET" "/api/ItemProperty/GetItems?ListID=6" responded 200 in 109.5766 ms
+02/04/2021 16:00:41 Delete item by ItemID, ItemID: 13.
+02/04/2021 16:00:41 HTTP "DELETE" "/api/ItemProperty/DeleteByItemID/13" responded 200 in 393.5896 ms
+02/04/2021 16:00:47 Generating items with ListID: 6.
+02/04/2021 16:00:47 Generated {Count()} item(s).
+02/04/2021 16:00:47 HTTP "GET" "/api/ItemProperty/GetItems?ListID=6" responded 200 in 307.0451 ms
+02/04/2021 16:00:54 Delete item by ItemID, ItemID: 13.
+02/04/2021 16:01:16 Delete item by ItemID, ItemID: 13.Failed. "System.InvalidOperationException: Sequence contains no elements
+   at System.Linq.ThrowHelper.ThrowNoElementsException()
+   at System.Linq.Enumerable.Single[TSource](IEnumerable`1 source)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.Execute[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryProvider.Execute[TResult](Expression expression)
+   at System.Linq.Queryable.First[TSource](IQueryable`1 source, Expression`1 predicate)
+   at Infra.Repository.ItemPropertyRepository.GetSelectedItemPropertyByItemID(Int32 ItemID) in C:\Users\Brianna Louie\source\repos\WpfApp_Api\Infra\Repository\ItemPropertyRepository.cs:line 92
+   at Infra.Repository.ItemPropertyRepository.DeleteItemByID(Int32 ItemID) in C:\Users\Brianna Louie\source\repos\WpfApp_Api\Infra\Repository\ItemPropertyRepository.cs:line 62
+   at WpfApp_Api.Controllers.ItemPropertiesController.DeleteByItemID(Int32 ItemID) in C:\Users\Brianna Louie\source\repos\WpfApp_Api\WpfApp_Api\Controllers\ItemPropertiesController.cs:line 87"
+02/04/2021 16:01:16 HTTP "DELETE" "/api/ItemProperty/DeleteByItemID/13" responded 200 in 21945.9935 ms
+02/04/2021 16:01:25 Generating items with ListID: 6.
+02/04/2021 16:01:26 Generated {Count()} item(s).
+02/04/2021 16:01:26 HTTP "GET" "/api/ItemProperty/GetItems?ListID=6" responded 200 in 665.5321 ms
+02/04/2021 16:01:50 HTTP "POST" "/api/ItemProperty/InsertItem" responded 400 in 167.6870 ms
+02/04/2021 16:01:53 Generating items with ListID: 6.
+02/04/2021 16:01:54 Generated {Count()} item(s).
+02/04/2021 16:01:54 HTTP "GET" "/api/ItemProperty/GetItems?ListID=6" responded 200 in 158.1647 ms
+02/04/2021 16:01:56 Generating items with ListID: 6.
+02/04/2021 16:01:56 Generated {Count()} item(s).
+02/04/2021 16:01:56 HTTP "GET" "/api/ItemProperty/GetItems?ListID=6" responded 200 in 71.8316 ms
+02/04/2021 16:01:57 Generating items with ListID: 6.
+02/04/2021 16:01:57 Generated {Count()} item(s).
+02/04/2021 16:01:57 HTTP "GET" "/api/ItemProperty/GetItems?ListID=6" responded 200 in 68.9773 ms
+02/04/2021 16:02:01 HTTP "POST" "/api/ItemProperty/InsertItem" responded 400 in 2.3577 ms
+02/04/2021 16:02:13 HTTP "POST" "/api/ItemProperty/InsertItem" responded 400 in 59.0904 ms
+02/04/2021 16:02:24 Adding new item, ListID: 6, ItemName: "test additemname - 2", ItemDesc: "test additemdesc - 2", ItemStatus: 1.
+02/04/2021 16:02:25 HTTP "POST" "/api/ItemProperty/InsertItem" responded 200 in 317.0081 ms
+02/04/2021 16:02:27 Generating items with ListID: 6.
+02/04/2021 16:02:27 Generated {Count()} item(s).
+02/04/2021 16:02:27 HTTP "GET" "/api/ItemProperty/GetItems?ListID=6" responded 200 in 204.4857 ms
+02/04/2021 16:02:39 Delete item by ListID, ListID: 6.
+02/04/2021 16:02:39 HTTP "DELETE" "/api/ItemProperty/DeleteByListID/6" responded 200 in 246.0819 ms
+02/04/2021 16:02:43 Generating items with ListID: 6.
+02/04/2021 16:02:43 Generated {Count()} item(s).
+02/04/2021 16:02:43 HTTP "GET" "/api/ItemProperty/GetItems?ListID=6" responded 200 in 139.3410 ms
+02/05/2021 17:34:50 Application starting up.
+02/06/2021 13:37:00 Application starting up.
+02/06/2021 13:42:31 Generate all list.
+02/06/2021 13:42:48 HTTP "GET" "/api/ListProperty/GetList" responded 500 in 284917.7837 ms
+System.InvalidOperationException: Handler was not found for request of type MediatR.IRequestHandler`2[Infra.MediatR.Query.GetListQuery,System.Collections.Generic.List`1[Entities.Model.ListProperty]]. Register your handlers with the container. See the samples in GitHub for examples.
+   at MediatR.Internal.RequestHandlerBase.GetHandler[THandler](ServiceFactory factory)
+   at MediatR.Internal.RequestHandlerWrapperImpl`2.<>c__DisplayClass1_0.<Handle>g__Handler|0()
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestPostProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestPreProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at WpfApp_Api.Controllers.ListPropertiesController.GetList() in C:\Users\Brianna Louie\source\repos\WpfApp_Api\WpfApp_Api\Controllers\ListPropertiesController.cs:line 41
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+02/06/2021 13:42:51 An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Handler was not found for request of type MediatR.IRequestHandler`2[Infra.MediatR.Query.GetListQuery,System.Collections.Generic.List`1[Entities.Model.ListProperty]]. Register your handlers with the container. See the samples in GitHub for examples.
+   at MediatR.Internal.RequestHandlerBase.GetHandler[THandler](ServiceFactory factory)
+   at MediatR.Internal.RequestHandlerWrapperImpl`2.<>c__DisplayClass1_0.<Handle>g__Handler|0()
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestPostProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestPreProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at WpfApp_Api.Controllers.ListPropertiesController.GetList() in C:\Users\Brianna Louie\source\repos\WpfApp_Api\WpfApp_Api\Controllers\ListPropertiesController.cs:line 41
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+02/06/2021 14:03:54 Application starting up.
+02/06/2021 14:05:04 Generate all list.
+02/06/2021 14:05:04 HTTP "GET" "/api/ListProperty/GetList" responded 500 in 2784.2072 ms
+System.InvalidOperationException: Handler was not found for request of type MediatR.IRequestHandler`2[Infra.MediatR.Query.GetListQuery,System.Collections.Generic.List`1[Entities.Model.ListProperty]]. Register your handlers with the container. See the samples in GitHub for examples.
+   at MediatR.Internal.RequestHandlerBase.GetHandler[THandler](ServiceFactory factory)
+   at MediatR.Internal.RequestHandlerWrapperImpl`2.<>c__DisplayClass1_0.<Handle>g__Handler|0()
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestPostProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestPreProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at WpfApp_Api.Controllers.ListPropertiesController.GetList() in C:\Users\Brianna Louie\source\repos\WpfApp_Api\WpfApp_Api\Controllers\ListPropertiesController.cs:line 41
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+02/06/2021 14:05:05 An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Handler was not found for request of type MediatR.IRequestHandler`2[Infra.MediatR.Query.GetListQuery,System.Collections.Generic.List`1[Entities.Model.ListProperty]]. Register your handlers with the container. See the samples in GitHub for examples.
+   at MediatR.Internal.RequestHandlerBase.GetHandler[THandler](ServiceFactory factory)
+   at MediatR.Internal.RequestHandlerWrapperImpl`2.<>c__DisplayClass1_0.<Handle>g__Handler|0()
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestPostProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestPreProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at WpfApp_Api.Controllers.ListPropertiesController.GetList() in C:\Users\Brianna Louie\source\repos\WpfApp_Api\WpfApp_Api\Controllers\ListPropertiesController.cs:line 41
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+02/06/2021 14:44:48 Application starting up.
+02/06/2021 14:46:07 Generate all list.
+02/06/2021 14:46:08 HTTP "GET" "/api/ListProperty/GetList" responded 500 in 2351.1068 ms
+System.InvalidOperationException: Handler was not found for request of type MediatR.IRequestHandler`2[Infra.MediatR.Query.GetListQuery,System.Collections.Generic.List`1[Entities.Model.ListProperty]]. Register your handlers with the container. See the samples in GitHub for examples.
+   at MediatR.Internal.RequestHandlerBase.GetHandler[THandler](ServiceFactory factory)
+   at MediatR.Internal.RequestHandlerWrapperImpl`2.<>c__DisplayClass1_0.<Handle>g__Handler|0()
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestPostProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestPreProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at WpfApp_Api.Controllers.ListPropertiesController.GetList() in C:\Users\Brianna Louie\source\repos\WpfApp_Api\WpfApp_Api\Controllers\ListPropertiesController.cs:line 41
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+02/06/2021 14:46:09 An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Handler was not found for request of type MediatR.IRequestHandler`2[Infra.MediatR.Query.GetListQuery,System.Collections.Generic.List`1[Entities.Model.ListProperty]]. Register your handlers with the container. See the samples in GitHub for examples.
+   at MediatR.Internal.RequestHandlerBase.GetHandler[THandler](ServiceFactory factory)
+   at MediatR.Internal.RequestHandlerWrapperImpl`2.<>c__DisplayClass1_0.<Handle>g__Handler|0()
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestPostProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestPreProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at WpfApp_Api.Controllers.ListPropertiesController.GetList() in C:\Users\Brianna Louie\source\repos\WpfApp_Api\WpfApp_Api\Controllers\ListPropertiesController.cs:line 41
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+02/06/2021 14:47:12 Application starting up.
+02/06/2021 14:48:13 Generate all list.
+02/06/2021 14:48:22 HTTP "GET" "/api/ListProperty/GetList" responded 200 in 9982.2414 ms
+02/08/2021 11:43:52 Application starting up.
+02/08/2021 11:47:07 Application starting up.
+02/08/2021 11:47:46 Add list, "string", "string".
+02/08/2021 11:47:59 HTTP "POST" "/api/ListProperty/InsertList" responded 200 in 15111.0370 ms
+02/08/2021 11:49:03 Application starting up.
+02/08/2021 11:49:20 Generate all list.
+02/08/2021 11:49:23 HTTP "GET" "/api/ListProperty/GetList" responded 200 in 3855.9559 ms
+02/08/2021 11:51:08 HTTP "POST" "/api/ListProperty/InsertList" responded 200 in 80194.6587 ms
+02/08/2021 11:51:46 Generate all list.
+02/08/2021 11:51:57 HTTP "GET" "/api/ListProperty/GetList" responded 200 in 40514.5145 ms
+02/08/2021 16:23:52 Application starting up.
+02/08/2021 16:25:16 Generate all list.
+02/08/2021 16:25:25 HTTP "GET" "/api/ListProperty/GetList" responded 200 in 11516.0057 ms
+02/08/2021 16:35:02 Application starting up.
+02/08/2021 16:35:44 Generate all list.
+02/08/2021 16:35:46 HTTP "GET" "/api/ListProperty/GetList" responded 200 in 5216.0745 ms
+02/09/2021 09:57:56 Application starting up.
+02/09/2021 09:59:10 Generate all list.
+02/09/2021 09:59:23 HTTP "GET" "/api/ListProperty/GetList" responded 200 in 14561.9672 ms
+02/09/2021 09:59:41 Delete list, 8.
+02/09/2021 09:59:42 HTTP "DELETE" "/api/ListProperty/DeleteList/8" responded 200 in 1155.5937 ms
+02/09/2021 09:59:48 Generate all list.
+02/09/2021 09:59:48 HTTP "GET" "/api/ListProperty/GetList" responded 200 in 71.8686 ms
+02/09/2021 10:00:51 Update list, 14, "mediatrUpdate name", "mediatrUpdate desc".
+02/09/2021 10:00:52 HTTP "PUT" "/api/ListProperty/UpdateList" responded 200 in 490.2208 ms
+02/09/2021 10:00:57 Generate all list.
+02/09/2021 10:00:57 HTTP "GET" "/api/ListProperty/GetList" responded 200 in 71.3453 ms
+02/09/2021 10:03:16 Application starting up.
+02/09/2021 10:08:24 Application starting up.
+02/09/2021 10:09:43 Generate all list.
+02/09/2021 10:09:46 Generate 10 list.
+02/09/2021 10:09:46 HTTP "GET" "/api/ListProperty/GetList" responded 200 in 4124.9423 ms
+02/09/2021 10:10:21 Add list, "mediatrAdd name", "mediatrAdd desc".
+02/09/2021 10:11:35 Application starting up.
+02/09/2021 10:11:50 Generate all list.
+02/09/2021 10:11:52 Generate 11 list.
+02/09/2021 10:11:52 HTTP "GET" "/api/ListProperty/GetList" responded 200 in 3366.9065 ms
+02/09/2021 10:14:37 Application starting up.
+02/09/2021 10:15:16 Generate all list.
+02/09/2021 10:15:25 Delete list, 18.
+02/09/2021 10:15:26 Generate 11 list.
+02/09/2021 10:15:26 HTTP "GET" "/api/ListProperty/GetList" responded 200 in 11153.1145 ms
+02/09/2021 10:15:54 HTTP "DELETE" "/api/ListProperty/DeleteList/18" responded 500 in 29288.0234 ms
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestPostProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestPreProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at WpfApp_Api.Controllers.ListPropertiesController.DeleteList(Int32 ListID) in C:\Users\Brianna Louie\source\repos\WpfApp_Api\WpfApp_Api\Controllers\ListPropertiesController.cs:line 58
+   at lambda_method17(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+02/09/2021 10:15:57 An unhandled exception has occurred while executing the request.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestPostProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestPreProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at WpfApp_Api.Controllers.ListPropertiesController.DeleteList(Int32 ListID) in C:\Users\Brianna Louie\source\repos\WpfApp_Api\WpfApp_Api\Controllers\ListPropertiesController.cs:line 58
+   at lambda_method17(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+02/09/2021 10:16:14 Delete list, 18.
+02/09/2021 10:19:15 Application starting up.
+02/09/2021 10:31:04 Application starting up.
+02/09/2021 10:33:05 Generate all list.
+02/09/2021 10:33:08 Generate 10 list.
+02/09/2021 10:33:08 HTTP "GET" "/api/ListProperty/GetList" responded 200 in 4603.9263 ms
+02/09/2021 10:58:24 Application starting up.
+02/09/2021 11:04:48 Generate all list.
+02/09/2021 11:04:51 Generate 10 list.
+02/09/2021 11:04:51 HTTP "GET" "/api/ListProperty/GetList" responded 200 in 5284.3213 ms
+02/09/2021 11:05:08 Delete list, 17.
+02/09/2021 11:25:29 Application starting up.
+02/09/2021 11:25:53 Generate all list.
+02/09/2021 11:25:57 Generate 9 list.
+02/09/2021 11:25:57 HTTP "GET" "/api/ListProperty/GetList" responded 200 in 5529.5743 ms
+02/09/2021 11:26:09 Delete list, 19.
+02/09/2021 11:26:09 HTTP "DELETE" "/api/ListProperty/DeleteList/19" responded 200 in 1021.1505 ms
+02/09/2021 11:26:15 Generate all list.
+02/09/2021 11:26:15 Generate 8 list.
+02/09/2021 11:26:15 HTTP "GET" "/api/ListProperty/GetList" responded 200 in 125.2218 ms
+02/09/2021 11:26:36 Add list, "aaaa", "bbbb".
+02/09/2021 11:26:36 HTTP "POST" "/api/ListProperty/InsertList" responded 200 in 666.9724 ms
+02/09/2021 11:26:41 Generate all list.
+02/09/2021 11:26:41 Generate 9 list.
+02/09/2021 11:26:41 HTTP "GET" "/api/ListProperty/GetList" responded 200 in 79.7654 ms
+02/09/2021 11:27:57 Update list, 4, "mediatrUpdate name", "meditarUpdate desc".
+02/09/2021 11:27:57 HTTP "PUT" "/api/ListProperty/UpdateList" responded 200 in 572.3602 ms
+02/09/2021 11:28:03 Generate all list.
+02/09/2021 11:28:03 Generate 9 list.
+02/09/2021 11:28:03 HTTP "GET" "/api/ListProperty/GetList" responded 200 in 64.1336 ms
+02/09/2021 14:35:23 Application starting up.
+02/09/2021 14:40:20 Generate all items.
+02/09/2021 14:40:25 Generate 0 items.
+02/09/2021 14:40:25 HTTP "GET" "/api/ItemProperty/GetItems?ListID=5" responded 200 in 7693.3199 ms
+02/09/2021 14:42:07 Generate all list.
+02/09/2021 14:42:07 Generate 9 list.
+02/09/2021 14:42:07 HTTP "GET" "/api/ListProperty/GetList" responded 200 in 364.7037 ms
+02/09/2021 14:42:18 Generate all items.
+02/09/2021 14:42:18 Generate 0 items.
+02/09/2021 14:42:18 HTTP "GET" "/api/ItemProperty/GetItems?ListID=6" responded 200 in 140.0599 ms
+02/09/2021 14:43:07 Add Item, 6 "mediatr additemName", "mediatr additemDesc", 1.
+02/09/2021 14:43:08 HTTP "POST" "/api/ItemProperty/InsertItem" responded 200 in 1063.9346 ms
+02/09/2021 14:43:14 Add Item, 6 "mediatr additemName", "mediatr additemDesc", 1.
+02/09/2021 14:43:15 HTTP "POST" "/api/ItemProperty/InsertItem" responded 200 in 302.1504 ms
+02/09/2021 14:43:23 Add Item, 6 "mediatr additemName2", "mediatr additemDesc2", 0.
+02/09/2021 14:43:24 HTTP "POST" "/api/ItemProperty/InsertItem" responded 200 in 243.9366 ms
+02/09/2021 14:43:26 Generate all items.
+02/09/2021 14:43:26 Generate 3 items.
+02/09/2021 14:43:26 HTTP "GET" "/api/ItemProperty/GetItems?ListID=6" responded 200 in 126.3762 ms
+02/09/2021 14:43:38 Delete Item, 17.
+02/09/2021 14:43:39 HTTP "DELETE" "/api/ItemProperty/DeleteByItemID/17" responded 200 in 294.9652 ms
+02/09/2021 14:43:45 Generate all items.
+02/09/2021 14:43:45 Generate 2 items.
+02/09/2021 14:43:45 HTTP "GET" "/api/ItemProperty/GetItems?ListID=6" responded 200 in 142.7851 ms
+02/09/2021 14:43:59 Delete Items, 6.
+02/09/2021 14:44:01 Delete Item, 6. Failed
+02/09/2021 14:44:01 HTTP "DELETE" "/api/ItemProperty/DeleteByListID/6" responded 200 in 1603.4964 ms
+02/09/2021 14:44:09 Generate all items.
+02/09/2021 14:44:09 Generate 2 items.
+02/09/2021 14:44:09 HTTP "GET" "/api/ItemProperty/GetItems?ListID=6" responded 200 in 95.2018 ms
+02/09/2021 14:44:20 Delete Items, 6.
+02/09/2021 14:44:20 Delete Item, 6. Failed
+02/09/2021 14:44:20 HTTP "DELETE" "/api/ItemProperty/DeleteByListID/6" responded 200 in 371.7352 ms
+02/09/2021 14:44:27 Generate all items.
+02/09/2021 14:44:27 Generate 2 items.
+02/09/2021 14:44:27 HTTP "GET" "/api/ItemProperty/GetItems?ListID=6" responded 200 in 116.1083 ms
+02/09/2021 14:47:19 Application starting up.
+02/09/2021 14:47:39 Delete Items, 6.
+02/09/2021 14:47:42 HTTP "DELETE" "/api/ItemProperty/DeleteByListID/6" responded 200 in 4290.9850 ms
+02/09/2021 14:47:48 Generate all items.
+02/09/2021 14:47:48 Generate 0 items.
+02/09/2021 14:47:48 HTTP "GET" "/api/ItemProperty/GetItems?ListID=6" responded 200 in 407.6461 ms
