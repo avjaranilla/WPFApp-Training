@@ -1,23 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Brianna Louie\\source\\repos\\WpfApp_Api\\WpfApp_Ui\\WpfApp_Ui.csproj": {}
+    "E:\\Repo\\WpfApp-UI\\WpfApp_Api\\WpfApp_Ui\\WpfApp_Ui.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Brianna Louie\\source\\repos\\WpfApp_Api\\WpfAppUi_Entities\\WpfAppUi_Entities.csproj": {
+    "E:\\Repo\\WpfApp-UI\\WpfApp_Api\\WpfAppUi_Entities\\WpfAppUi_Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Brianna Louie\\source\\repos\\WpfApp_Api\\WpfAppUi_Entities\\WpfAppUi_Entities.csproj",
+        "projectUniqueName": "E:\\Repo\\WpfApp-UI\\WpfApp_Api\\WpfAppUi_Entities\\WpfAppUi_Entities.csproj",
         "projectName": "WpfAppUi_Entities",
-        "projectPath": "C:\\Users\\Brianna Louie\\source\\repos\\WpfApp_Api\\WpfAppUi_Entities\\WpfAppUi_Entities.csproj",
+        "projectPath": "E:\\Repo\\WpfApp-UI\\WpfApp_Api\\WpfAppUi_Entities\\WpfAppUi_Entities.csproj",
         "packagesPath": "C:\\Users\\Brianna Louie\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Brianna Louie\\source\\repos\\WpfApp_Api\\WpfAppUi_Entities\\obj\\",
+        "outputPath": "E:\\Repo\\WpfApp-UI\\WpfApp_Api\\WpfAppUi_Entities\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
           "C:\\Users\\Brianna Louie\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -57,24 +59,26 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.200\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Brianna Louie\\source\\repos\\WpfApp_Api\\WpfAppUi_Infra\\WpfAppUi_Infra.csproj": {
+    "E:\\Repo\\WpfApp-UI\\WpfApp_Api\\WpfAppUi_Infra\\WpfAppUi_Infra.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Brianna Louie\\source\\repos\\WpfApp_Api\\WpfAppUi_Infra\\WpfAppUi_Infra.csproj",
+        "projectUniqueName": "E:\\Repo\\WpfApp-UI\\WpfApp_Api\\WpfAppUi_Infra\\WpfAppUi_Infra.csproj",
         "projectName": "WpfAppUi_Infra",
-        "projectPath": "C:\\Users\\Brianna Louie\\source\\repos\\WpfApp_Api\\WpfAppUi_Infra\\WpfAppUi_Infra.csproj",
+        "projectPath": "E:\\Repo\\WpfApp-UI\\WpfApp_Api\\WpfAppUi_Infra\\WpfAppUi_Infra.csproj",
         "packagesPath": "C:\\Users\\Brianna Louie\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Brianna Louie\\source\\repos\\WpfApp_Api\\WpfAppUi_Infra\\obj\\",
+        "outputPath": "E:\\Repo\\WpfApp-UI\\WpfApp_Api\\WpfAppUi_Infra\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
           "C:\\Users\\Brianna Louie\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -88,8 +92,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\Brianna Louie\\source\\repos\\WpfApp_Api\\WpfAppUi_Entities\\WpfAppUi_Entities.csproj": {
-                "projectPath": "C:\\Users\\Brianna Louie\\source\\repos\\WpfApp_Api\\WpfAppUi_Entities\\WpfAppUi_Entities.csproj"
+              "E:\\Repo\\WpfApp-UI\\WpfApp_Api\\WpfAppUi_Entities\\WpfAppUi_Entities.csproj": {
+                "projectPath": "E:\\Repo\\WpfApp-UI\\WpfApp_Api\\WpfAppUi_Entities\\WpfAppUi_Entities.csproj"
               }
             }
           }
@@ -124,24 +128,98 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.200\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Brianna Louie\\source\\repos\\WpfApp_Api\\WpfApp_Ui\\WpfApp_Ui.csproj": {
+    "E:\\Repo\\WpfApp-UI\\WpfApp_Api\\WpfAppUi_Services\\WpfAppUi_Services.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Brianna Louie\\source\\repos\\WpfApp_Api\\WpfApp_Ui\\WpfApp_Ui.csproj",
-        "projectName": "WpfApp_Ui",
-        "projectPath": "C:\\Users\\Brianna Louie\\source\\repos\\WpfApp_Api\\WpfApp_Ui\\WpfApp_Ui.csproj",
+        "projectUniqueName": "E:\\Repo\\WpfApp-UI\\WpfApp_Api\\WpfAppUi_Services\\WpfAppUi_Services.csproj",
+        "projectName": "WpfAppUi_Services",
+        "projectPath": "E:\\Repo\\WpfApp-UI\\WpfApp_Api\\WpfAppUi_Services\\WpfAppUi_Services.csproj",
         "packagesPath": "C:\\Users\\Brianna Louie\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Brianna Louie\\source\\repos\\WpfApp_Api\\WpfApp_Ui\\obj\\",
+        "outputPath": "E:\\Repo\\WpfApp-UI\\WpfApp_Api\\WpfAppUi_Services\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
           "C:\\Users\\Brianna Louie\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "E:\\Repo\\WpfApp-UI\\WpfApp_Api\\WpfAppUi_Entities\\WpfAppUi_Entities.csproj": {
+                "projectPath": "E:\\Repo\\WpfApp-UI\\WpfApp_Api\\WpfAppUi_Entities\\WpfAppUi_Entities.csproj"
+              },
+              "E:\\Repo\\WpfApp-UI\\WpfApp_Api\\WpfAppUi_Infra\\WpfAppUi_Infra.csproj": {
+                "projectPath": "E:\\Repo\\WpfApp-UI\\WpfApp_Api\\WpfAppUi_Infra\\WpfAppUi_Infra.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "MediatR": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Repo\\WpfApp-UI\\WpfApp_Api\\WpfApp_Ui\\WpfApp_Ui.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Repo\\WpfApp-UI\\WpfApp_Api\\WpfApp_Ui\\WpfApp_Ui.csproj",
+        "projectName": "WpfApp_Ui",
+        "projectPath": "E:\\Repo\\WpfApp-UI\\WpfApp_Api\\WpfApp_Ui\\WpfApp_Ui.csproj",
+        "packagesPath": "C:\\Users\\Brianna Louie\\.nuget\\packages\\",
+        "outputPath": "E:\\Repo\\WpfApp-UI\\WpfApp_Api\\WpfApp_Ui\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Brianna Louie\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -155,11 +233,14 @@
           "net5.0-windows7.0": {
             "targetAlias": "net5.0-windows",
             "projectReferences": {
-              "C:\\Users\\Brianna Louie\\source\\repos\\WpfApp_Api\\WpfAppUi_Entities\\WpfAppUi_Entities.csproj": {
-                "projectPath": "C:\\Users\\Brianna Louie\\source\\repos\\WpfApp_Api\\WpfAppUi_Entities\\WpfAppUi_Entities.csproj"
+              "E:\\Repo\\WpfApp-UI\\WpfApp_Api\\WpfAppUi_Entities\\WpfAppUi_Entities.csproj": {
+                "projectPath": "E:\\Repo\\WpfApp-UI\\WpfApp_Api\\WpfAppUi_Entities\\WpfAppUi_Entities.csproj"
               },
-              "C:\\Users\\Brianna Louie\\source\\repos\\WpfApp_Api\\WpfAppUi_Infra\\WpfAppUi_Infra.csproj": {
-                "projectPath": "C:\\Users\\Brianna Louie\\source\\repos\\WpfApp_Api\\WpfAppUi_Infra\\WpfAppUi_Infra.csproj"
+              "E:\\Repo\\WpfApp-UI\\WpfApp_Api\\WpfAppUi_Infra\\WpfAppUi_Infra.csproj": {
+                "projectPath": "E:\\Repo\\WpfApp-UI\\WpfApp_Api\\WpfAppUi_Infra\\WpfAppUi_Infra.csproj"
+              },
+              "E:\\Repo\\WpfApp-UI\\WpfApp_Api\\WpfAppUi_Services\\WpfAppUi_Services.csproj": {
+                "projectPath": "E:\\Repo\\WpfApp-UI\\WpfApp_Api\\WpfAppUi_Services\\WpfAppUi_Services.csproj"
               }
             }
           }
@@ -174,6 +255,14 @@
         "net5.0-windows7.0": {
           "targetAlias": "net5.0-windows",
           "dependencies": {
+            "MediatR": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "MediatR.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
             "Microsoft.Extensions.Configuration": {
               "target": "Package",
               "version": "[5.0.0, )"
@@ -213,7 +302,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.200\\RuntimeIdentifierGraph.json"
         }
       }
     }

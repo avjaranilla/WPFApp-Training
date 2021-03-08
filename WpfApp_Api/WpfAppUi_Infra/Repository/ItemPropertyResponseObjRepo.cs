@@ -14,16 +14,25 @@ namespace WpfAppUi_Infra.Repository
     public class ItemPropertyResponseObjRepo : IItemPropertyResponseObjRepo
     {
 
-        string StrUri = "http://localhost:5000/";
+        public void ClientSetUp(HttpClient client)
+        {
+            string StrUri = "http://localhost:8080/";
+
+            client.BaseAddress = new Uri(StrUri);
+            client.Timeout = TimeSpan.FromSeconds(Convert.ToDouble(1000));
+
+            client.DefaultRequestHeaders.Accept.Clear();
+            client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
+        }
 
         //Get All Items in a particular List
         public async Task<IEnumerable<ItemPropertyResponseObj>> GetItems(int ListID)
         {
             List<ItemPropertyResponseObj> ItemPropertyResponseObj = new List<ItemPropertyResponseObj>();
+
             using (var client = new HttpClient())
             {
-                client.BaseAddress = new Uri(StrUri);
-                client.Timeout = TimeSpan.FromSeconds(Convert.ToDouble(1000000));
+                ClientSetUp(client);
 
                 var response = new HttpResponseMessage();
                 response = await client.GetAsync(string.Format("api/ItemProperty/GetItems?ListID={0}", ListID)).ConfigureAwait(false);
@@ -42,14 +51,9 @@ namespace WpfAppUi_Infra.Repository
             string response = "";
             using (var client = new HttpClient())
             {
-                client.BaseAddress = new Uri(StrUri);
-                client.Timeout = TimeSpan.FromSeconds(Convert.ToDouble(1000000));
-
-                client.DefaultRequestHeaders.Accept.Clear();
-                client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
+                ClientSetUp(client);
 
                 var resp = new HttpResponseMessage();
-
                 resp = await client.PostAsJsonAsync("api/ItemProperty/InsertItem", ItemPropertyResponseObj).ConfigureAwait(false);
                 response = resp.StatusCode.ToString();
                 resp.Dispose();
@@ -62,16 +66,11 @@ namespace WpfAppUi_Infra.Repository
             string response = "";
             using (var client = new HttpClient())
             {
-                client.BaseAddress = new Uri(StrUri);
-                client.Timeout = TimeSpan.FromSeconds(Convert.ToDouble(1000000));
-
-                client.DefaultRequestHeaders.Accept.Clear();
-                client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
+                ClientSetUp(client);
 
                 var resp = new HttpResponseMessage();
                 resp = await client.PutAsJsonAsync("api/ItemProperty/UpdateItem", ItemPropertyResponseObj).ConfigureAwait(false);
                 response = resp.StatusCode.ToString();
-
                 resp.Dispose();
             }
             return response;
@@ -82,11 +81,7 @@ namespace WpfAppUi_Infra.Repository
             string response = "";
             using (var client = new HttpClient())
             {
-                client.BaseAddress = new Uri(StrUri);
-                client.Timeout = TimeSpan.FromSeconds(Convert.ToDouble(1000000));
-
-                client.DefaultRequestHeaders.Accept.Clear();
-                client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
+                ClientSetUp(client);
 
                 var resp = new HttpResponseMessage();
                 resp = await client.DeleteAsync($"api/ItemProperty/DeleteByItemID/{ItemID}").ConfigureAwait(false);
@@ -102,11 +97,7 @@ namespace WpfAppUi_Infra.Repository
             string response = "";
             using (var client = new HttpClient())
             {
-                client.BaseAddress = new Uri(StrUri);
-                client.Timeout = TimeSpan.FromSeconds(Convert.ToDouble(1000000));
-
-                client.DefaultRequestHeaders.Accept.Clear();
-                client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
+                ClientSetUp(client);
 
                 var resp = new HttpResponseMessage();
                 resp = await client.DeleteAsync($"api/ItemProperty/DeleteByListID/{ListID}").ConfigureAwait(false);

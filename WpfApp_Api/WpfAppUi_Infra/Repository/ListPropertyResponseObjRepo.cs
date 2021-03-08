@@ -13,19 +13,35 @@ namespace WpfAppUi_Infra.Repository
     public class ListPropertyResponseObjRepo : IListPropertyResponseObjRepo
     {
 
-        string StrUri = "http://localhost:5000/";
-        //Get All list
+        /// <summary>
+        /// http client setup.
+        /// </summary>
+        /// <param name="client"></param>
+        public void ClientSetUp(HttpClient client)
+        {
+            string StrUri = "http://localhost:8080/";
+
+            client.BaseAddress = new Uri(StrUri);
+            client.Timeout = TimeSpan.FromSeconds(Convert.ToDouble(1000000));
+
+            client.DefaultRequestHeaders.Accept.Clear();
+            client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
+        }
+
+        /// <summary>
+        /// Get all list.
+        /// </summary>
+        /// <returns></returns>
         public async Task<IEnumerable<ListPropertyResponseObj>> GetLists()
         {
             List<ListPropertyResponseObj> listPropertyResponseObj = new List<ListPropertyResponseObj>();
+
             using (var client = new HttpClient())
             {
-                client.BaseAddress = new Uri(StrUri);
-                client.Timeout = TimeSpan.FromSeconds(Convert.ToDouble(1000000));
+                ClientSetUp(client);
 
                 var response = new HttpResponseMessage();
                 response = await client.GetAsync("api/ListProperty/GetList").ConfigureAwait(false);
-
                 if (response.IsSuccessStatusCode)
                 {
                     string result = response.Content.ReadAsStringAsync().Result;
@@ -36,20 +52,19 @@ namespace WpfAppUi_Infra.Repository
             return listPropertyResponseObj;
         }
 
-        //Insert new  List
+        /// <summary>
+        /// Insert new list.
+        /// </summary>
+        /// <param name="ListPropertyResponseObj"></param>
+        /// <returns></returns>
         public async Task<string> InsertList(ListPropertyResponseObj ListPropertyResponseObj)
         {
             string response = "";
             using (var client = new HttpClient())
             {
-                client.BaseAddress = new Uri(StrUri);
-                client.Timeout = TimeSpan.FromSeconds(Convert.ToDouble(1000000));
-
-                client.DefaultRequestHeaders.Accept.Clear();
-                client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
+                ClientSetUp(client);
 
                 var resp = new HttpResponseMessage();
-
                 resp = await client.PostAsJsonAsync("api/ListProperty/InsertList", ListPropertyResponseObj).ConfigureAwait(false);
                 response = resp.StatusCode.ToString();
                 resp.Dispose();
@@ -57,17 +72,17 @@ namespace WpfAppUi_Infra.Repository
             return response;
         }
 
-        //Update List
+        /// <summary>
+        /// Update list.
+        /// </summary>
+        /// <param name="ListPropertyResponseObj"></param>
+        /// <returns></returns>
         public async Task<string> UpdateList(ListPropertyResponseObj ListPropertyResponseObj)
         {
             string response = "";
             using (var client = new HttpClient())
             {
-                client.BaseAddress = new Uri(StrUri);
-                client.Timeout = TimeSpan.FromSeconds(Convert.ToDouble(1000000));
-
-                client.DefaultRequestHeaders.Accept.Clear();
-                client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
+                ClientSetUp(client);
 
                 var resp = new HttpResponseMessage();
                 resp = await client.PutAsJsonAsync("api/ListProperty/UpdateList", ListPropertyResponseObj).ConfigureAwait(false);
@@ -79,17 +94,17 @@ namespace WpfAppUi_Infra.Repository
 
         }
 
-        //Delete List
+        /// <summary>
+        /// Delete list.
+        /// </summary>
+        /// <param name="ListID"></param>
+        /// <returns></returns>
         public async Task<string> Deletelist(int ListID)
         {
             string response = "";
             using (var client = new HttpClient())
             {
-                client.BaseAddress = new Uri("https://localhost:44372/");
-                client.Timeout = TimeSpan.FromSeconds(Convert.ToDouble(1000000));
-
-                client.DefaultRequestHeaders.Accept.Clear();
-                client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
+                ClientSetUp(client);
 
                 var resp = new HttpResponseMessage();
                 resp = await client.DeleteAsync($"api/ListProperty/DeleteList/{ListID}").ConfigureAwait(false);
@@ -99,6 +114,9 @@ namespace WpfAppUi_Infra.Repository
             }
             return response;
         }
+
+
+     
     }
 }
 

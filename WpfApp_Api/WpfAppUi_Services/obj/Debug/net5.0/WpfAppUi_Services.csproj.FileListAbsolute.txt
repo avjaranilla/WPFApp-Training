@@ -1,0 +1,17 @@
+E:\Repo\WpfApp-UI\WpfApp_Api\WpfAppUi_Services\bin\Debug\net5.0\WpfAppUi_Services.deps.json
+E:\Repo\WpfApp-UI\WpfApp_Api\WpfAppUi_Services\bin\Debug\net5.0\WpfAppUi_Services.dll
+E:\Repo\WpfApp-UI\WpfApp_Api\WpfAppUi_Services\bin\Debug\net5.0\ref\WpfAppUi_Services.dll
+E:\Repo\WpfApp-UI\WpfApp_Api\WpfAppUi_Services\bin\Debug\net5.0\WpfAppUi_Services.pdb
+E:\Repo\WpfApp-UI\WpfApp_Api\WpfAppUi_Services\bin\Debug\net5.0\WpfAppUi_Entities.dll
+E:\Repo\WpfApp-UI\WpfApp_Api\WpfAppUi_Services\bin\Debug\net5.0\WpfAppUi_Infra.dll
+E:\Repo\WpfApp-UI\WpfApp_Api\WpfAppUi_Services\bin\Debug\net5.0\WpfAppUi_Entities.pdb
+E:\Repo\WpfApp-UI\WpfApp_Api\WpfAppUi_Services\bin\Debug\net5.0\WpfAppUi_Infra.pdb
+E:\Repo\WpfApp-UI\WpfApp_Api\WpfAppUi_Services\obj\Debug\net5.0\WpfAppUi_Services.csprojAssemblyReference.cache
+E:\Repo\WpfApp-UI\WpfApp_Api\WpfAppUi_Services\obj\Debug\net5.0\WpfAppUi_Services.GeneratedMSBuildEditorConfig.editorconfig
+E:\Repo\WpfApp-UI\WpfApp_Api\WpfAppUi_Services\obj\Debug\net5.0\WpfAppUi_Services.AssemblyInfoInputs.cache
+E:\Repo\WpfApp-UI\WpfApp_Api\WpfAppUi_Services\obj\Debug\net5.0\WpfAppUi_Services.AssemblyInfo.cs
+E:\Repo\WpfApp-UI\WpfApp_Api\WpfAppUi_Services\obj\Debug\net5.0\WpfAppUi_Services.csproj.CoreCompileInputs.cache
+E:\Repo\WpfApp-UI\WpfApp_Api\WpfAppUi_Services\obj\Debug\net5.0\WpfAppUi_Services.csproj.CopyComplete
+E:\Repo\WpfApp-UI\WpfApp_Api\WpfAppUi_Services\obj\Debug\net5.0\WpfAppUi_Services.dll
+E:\Repo\WpfApp-UI\WpfApp_Api\WpfAppUi_Services\obj\Debug\net5.0\ref\WpfAppUi_Services.dll
+E:\Repo\WpfApp-UI\WpfApp_Api\WpfAppUi_Services\obj\Debug\net5.0\WpfAppUi_Services.pdb

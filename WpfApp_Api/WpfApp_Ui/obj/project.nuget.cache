@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "BbZOjbyU1cRwhrHJ6lhV8hRZJO9tTIO5kKaGsCGGL2UmR8EShHO+HEzxJ5ln2oEoG9Wusp8GDZ1XsCLhj4hU8Q==",
+  "dgSpecHash": "xjLWDSYgy4Q3DyPx/LE+aXJo9NK8R97IY+HpKUjZ3CROVPIsIY0wkq5ZyEO125ZDA7F6NaRUg0NYODBkwfelPA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Brianna Louie\\source\\repos\\WpfApp_Api\\WpfApp_Ui\\WpfApp_Ui.csproj",
+  "projectFilePath": "E:\\Repo\\WpfApp-UI\\WpfApp_Api\\WpfApp_Ui\\WpfApp_Ui.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Brianna Louie\\.nuget\\packages\\mediatr\\9.0.0\\mediatr.9.0.0.nupkg.sha512",
+    "C:\\Users\\Brianna Louie\\.nuget\\packages\\mediatr.extensions.microsoft.dependencyinjection\\9.0.0\\mediatr.extensions.microsoft.dependencyinjection.9.0.0.nupkg.sha512",
     "C:\\Users\\Brianna Louie\\.nuget\\packages\\microsoft.aspnet.webapi.client\\5.2.7\\microsoft.aspnet.webapi.client.5.2.7.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.csharp\\4.3.0\\microsoft.csharp.4.3.0.nupkg.sha512",
     "C:\\Users\\Brianna Louie\\.nuget\\packages\\microsoft.extensions.configuration\\5.0.0\\microsoft.extensions.configuration.5.0.0.nupkg.sha512",

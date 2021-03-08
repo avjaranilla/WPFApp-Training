@@ -7,6 +7,8 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="MediatR" Version="9.0.0" />
+    <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="9.0.0" />
     <PackageReference Include="Microsoft.Extensions.Configuration" Version="5.0.0" />
     <PackageReference Include="Microsoft.Extensions.Configuration.FileExtensions" Version="5.0.0" />
     <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="5.0.1" />
@@ -17,6 +19,7 @@
   <ItemGroup>
     <ProjectReference Include="..\WpfAppUi_Entities\WpfAppUi_Entities.csproj" />
     <ProjectReference Include="..\WpfAppUi_Infra\WpfAppUi_Infra.csproj" />
+    <ProjectReference Include="..\WpfAppUi_Services\WpfAppUi_Services.csproj" />
   </ItemGroup>
 
 </Project>

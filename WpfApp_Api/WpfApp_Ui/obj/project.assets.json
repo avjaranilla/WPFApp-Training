@@ -2,6 +2,28 @@
   "version": 3,
   "targets": {
     "net5.0-windows7.0": {
+      "MediatR/9.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.1/MediatR.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.1/MediatR.dll": {}
+        }
+      },
+      "MediatR.Extensions.Microsoft.DependencyInjection/9.0.0": {
+        "type": "package",
+        "dependencies": {
+          "MediatR": "9.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "2.0.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/MediatR.Extensions.Microsoft.DependencyInjection.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/MediatR.Extensions.Microsoft.DependencyInjection.dll": {}
+        }
+      },
       "Microsoft.AspNet.WebApi.Client/5.2.7": {
         "type": "package",
         "dependencies": {
@@ -1595,10 +1617,56 @@
         "runtime": {
           "bin/placeholder/WpfAppUi_Infra.dll": {}
         }
+      },
+      "WpfAppUi_Services/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "MediatR": "9.0.0",
+          "WpfAppUi_Entities": "1.0.0",
+          "WpfAppUi_Infra": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/WpfAppUi_Services.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/WpfAppUi_Services.dll": {}
+        }
       }
     }
   },
   "libraries": {
+    "MediatR/9.0.0": {
+      "sha512": "8b3UYNxegHVYcJMG2zH8wn+YqxLvXG+eMfj0cMCq/jTW72p6O3PCKMkrIv0mqyxdW7bA4gblsocw7n+/9Akg5g==",
+      "type": "package",
+      "path": "mediatr/9.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "gradient_128x128.png",
+        "lib/net461/MediatR.dll",
+        "lib/net461/MediatR.xml",
+        "lib/netstandard2.0/MediatR.dll",
+        "lib/netstandard2.0/MediatR.xml",
+        "lib/netstandard2.1/MediatR.dll",
+        "lib/netstandard2.1/MediatR.xml",
+        "mediatr.9.0.0.nupkg.sha512",
+        "mediatr.nuspec"
+      ]
+    },
+    "MediatR.Extensions.Microsoft.DependencyInjection/9.0.0": {
+      "sha512": "msreY4ogiPdIRWiCQVHQDytIQpsZCLWsixWPZ+Xs86KZrvtuiV8BDHbIT0kBmogynVYWNpspb3caw+86YU8L6w==",
+      "type": "package",
+      "path": "mediatr.extensions.microsoft.dependencyinjection/9.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "gradient_128x128.png",
+        "lib/netstandard2.0/MediatR.Extensions.Microsoft.DependencyInjection.dll",
+        "mediatr.extensions.microsoft.dependencyinjection.9.0.0.nupkg.sha512",
+        "mediatr.extensions.microsoft.dependencyinjection.nuspec"
+      ]
+    },
     "Microsoft.AspNet.WebApi.Client/5.2.7": {
       "sha512": "/76fAHknzvFqbznS6Uj2sOyE9rJB3PltY+f53TH8dX9RiGhk02EhuFCWljSj5nnqKaTsmma8DFR50OGyQ4yJ1g==",
       "type": "package",
@@ -5598,37 +5666,48 @@
       "type": "project",
       "path": "../WpfAppUi_Infra/WpfAppUi_Infra.csproj",
       "msbuildProject": "../WpfAppUi_Infra/WpfAppUi_Infra.csproj"
+    },
+    "WpfAppUi_Services/1.0.0": {
+      "type": "project",
+      "path": "../WpfAppUi_Services/WpfAppUi_Services.csproj",
+      "msbuildProject": "../WpfAppUi_Services/WpfAppUi_Services.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net5.0-windows7.0": [
+      "MediatR >= 9.0.0",
+      "MediatR.Extensions.Microsoft.DependencyInjection >= 9.0.0",
       "Microsoft.Extensions.Configuration >= 5.0.0",
       "Microsoft.Extensions.Configuration.FileExtensions >= 5.0.0",
       "Microsoft.Extensions.DependencyInjection >= 5.0.1",
       "Serilog >= 2.10.0",
       "Serilog.Sinks.File >= 4.1.0",
       "WpfAppUi_Entities >= 1.0.0",
-      "WpfAppUi_Infra >= 1.0.0"
+      "WpfAppUi_Infra >= 1.0.0",
+      "WpfAppUi_Services >= 1.0.0"
     ]
   },
   "packageFolders": {
     "C:\\Users\\Brianna Louie\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Brianna Louie\\source\\repos\\WpfApp_Api\\WpfApp_Ui\\WpfApp_Ui.csproj",
+      "projectUniqueName": "E:\\Repo\\WpfApp-UI\\WpfApp_Api\\WpfApp_Ui\\WpfApp_Ui.csproj",
       "projectName": "WpfApp_Ui",
-      "projectPath": "C:\\Users\\Brianna Louie\\source\\repos\\WpfApp_Api\\WpfApp_Ui\\WpfApp_Ui.csproj",
+      "projectPath": "E:\\Repo\\WpfApp-UI\\WpfApp_Api\\WpfApp_Ui\\WpfApp_Ui.csproj",
       "packagesPath": "C:\\Users\\Brianna Louie\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Brianna Louie\\source\\repos\\WpfApp_Api\\WpfApp_Ui\\obj\\",
+      "outputPath": "E:\\Repo\\WpfApp-UI\\WpfApp_Api\\WpfApp_Ui\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
         "C:\\Users\\Brianna Louie\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -5642,11 +5721,14 @@
         "net5.0-windows7.0": {
           "targetAlias": "net5.0-windows",
           "projectReferences": {
-            "C:\\Users\\Brianna Louie\\source\\repos\\WpfApp_Api\\WpfAppUi_Entities\\WpfAppUi_Entities.csproj": {
-              "projectPath": "C:\\Users\\Brianna Louie\\source\\repos\\WpfApp_Api\\WpfAppUi_Entities\\WpfAppUi_Entities.csproj"
+            "E:\\Repo\\WpfApp-UI\\WpfApp_Api\\WpfAppUi_Entities\\WpfAppUi_Entities.csproj": {
+              "projectPath": "E:\\Repo\\WpfApp-UI\\WpfApp_Api\\WpfAppUi_Entities\\WpfAppUi_Entities.csproj"
             },
-            "C:\\Users\\Brianna Louie\\source\\repos\\WpfApp_Api\\WpfAppUi_Infra\\WpfAppUi_Infra.csproj": {
-              "projectPath": "C:\\Users\\Brianna Louie\\source\\repos\\WpfApp_Api\\WpfAppUi_Infra\\WpfAppUi_Infra.csproj"
+            "E:\\Repo\\WpfApp-UI\\WpfApp_Api\\WpfAppUi_Infra\\WpfAppUi_Infra.csproj": {
+              "projectPath": "E:\\Repo\\WpfApp-UI\\WpfApp_Api\\WpfAppUi_Infra\\WpfAppUi_Infra.csproj"
+            },
+            "E:\\Repo\\WpfApp-UI\\WpfApp_Api\\WpfAppUi_Services\\WpfAppUi_Services.csproj": {
+              "projectPath": "E:\\Repo\\WpfApp-UI\\WpfApp_Api\\WpfAppUi_Services\\WpfAppUi_Services.csproj"
             }
           }
         }
@@ -5661,6 +5743,14 @@
       "net5.0-windows7.0": {
         "targetAlias": "net5.0-windows",
         "dependencies": {
+          "MediatR": {
+            "target": "Package",
+            "version": "[9.0.0, )"
+          },
+          "MediatR.Extensions.Microsoft.DependencyInjection": {
+            "target": "Package",
+            "version": "[9.0.0, )"
+          },
           "Microsoft.Extensions.Configuration": {
             "target": "Package",
             "version": "[5.0.0, )"
@@ -5700,7 +5790,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.200\\RuntimeIdentifierGraph.json"
       }
     }
   }

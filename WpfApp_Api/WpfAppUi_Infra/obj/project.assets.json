@@ -5229,22 +5229,25 @@
   },
   "packageFolders": {
     "C:\\Users\\Brianna Louie\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Brianna Louie\\source\\repos\\WpfApp_Api\\WpfAppUi_Infra\\WpfAppUi_Infra.csproj",
+      "projectUniqueName": "E:\\Repo\\WpfApp-UI\\WpfApp_Api\\WpfAppUi_Infra\\WpfAppUi_Infra.csproj",
       "projectName": "WpfAppUi_Infra",
-      "projectPath": "C:\\Users\\Brianna Louie\\source\\repos\\WpfApp_Api\\WpfAppUi_Infra\\WpfAppUi_Infra.csproj",
+      "projectPath": "E:\\Repo\\WpfApp-UI\\WpfApp_Api\\WpfAppUi_Infra\\WpfAppUi_Infra.csproj",
       "packagesPath": "C:\\Users\\Brianna Louie\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Brianna Louie\\source\\repos\\WpfApp_Api\\WpfAppUi_Infra\\obj\\",
+      "outputPath": "E:\\Repo\\WpfApp-UI\\WpfApp_Api\\WpfAppUi_Infra\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
         "C:\\Users\\Brianna Louie\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -5258,8 +5261,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\Brianna Louie\\source\\repos\\WpfApp_Api\\WpfAppUi_Entities\\WpfAppUi_Entities.csproj": {
-              "projectPath": "C:\\Users\\Brianna Louie\\source\\repos\\WpfApp_Api\\WpfAppUi_Entities\\WpfAppUi_Entities.csproj"
+            "E:\\Repo\\WpfApp-UI\\WpfApp_Api\\WpfAppUi_Entities\\WpfAppUi_Entities.csproj": {
+              "projectPath": "E:\\Repo\\WpfApp-UI\\WpfApp_Api\\WpfAppUi_Entities\\WpfAppUi_Entities.csproj"
             }
           }
         }
@@ -5294,7 +5297,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.200\\RuntimeIdentifierGraph.json"
       }
     }
   }

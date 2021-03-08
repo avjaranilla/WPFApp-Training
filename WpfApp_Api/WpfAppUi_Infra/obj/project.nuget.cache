@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "9C7bCxalHcPum8R6Lg1mrW1m0kMwaBQoM+rg/M0QGFg6+jOCscioMG/PYuHL6JqcvE/5ZCLJ/AulOjmOkR5sWg==",
+  "dgSpecHash": "KO2DMjKP+xcE3ebokdQovZq9KuJvqZFzFHnsJtqncj/4tMZQL4EW+ohOH4KlnN/FLVvkYb6b8Z3viUn+hYbedg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Brianna Louie\\source\\repos\\WpfApp_Api\\WpfAppUi_Infra\\WpfAppUi_Infra.csproj",
+  "projectFilePath": "E:\\Repo\\WpfApp-UI\\WpfApp_Api\\WpfAppUi_Infra\\WpfAppUi_Infra.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Brianna Louie\\.nuget\\packages\\microsoft.aspnet.webapi.client\\5.2.7\\microsoft.aspnet.webapi.client.5.2.7.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.csharp\\4.3.0\\microsoft.csharp.4.3.0.nupkg.sha512",

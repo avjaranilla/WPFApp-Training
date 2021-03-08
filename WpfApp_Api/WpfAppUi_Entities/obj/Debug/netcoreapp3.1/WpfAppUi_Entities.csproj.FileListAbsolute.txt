@@ -6,3 +6,12 @@ C:\Users\Brianna Louie\source\repos\WpfApp_Api\WpfAppUi_Entities\obj\Debug\netco
 C:\Users\Brianna Louie\source\repos\WpfApp_Api\WpfAppUi_Entities\obj\Debug\netcoreapp3.1\WpfAppUi_Entities.csproj.CoreCompileInputs.cache
 C:\Users\Brianna Louie\source\repos\WpfApp_Api\WpfAppUi_Entities\obj\Debug\netcoreapp3.1\WpfAppUi_Entities.dll
 C:\Users\Brianna Louie\source\repos\WpfApp_Api\WpfAppUi_Entities\obj\Debug\netcoreapp3.1\WpfAppUi_Entities.pdb
+E:\Repo\WpfApp-UI\WpfApp_Api\WpfAppUi_Entities\bin\Debug\netcoreapp3.1\WpfAppUi_Entities.deps.json
+E:\Repo\WpfApp-UI\WpfApp_Api\WpfAppUi_Entities\bin\Debug\netcoreapp3.1\WpfAppUi_Entities.dll
+E:\Repo\WpfApp-UI\WpfApp_Api\WpfAppUi_Entities\bin\Debug\netcoreapp3.1\WpfAppUi_Entities.pdb
+E:\Repo\WpfApp-UI\WpfApp_Api\WpfAppUi_Entities\obj\Debug\netcoreapp3.1\WpfAppUi_Entities.csprojAssemblyReference.cache
+E:\Repo\WpfApp-UI\WpfApp_Api\WpfAppUi_Entities\obj\Debug\netcoreapp3.1\WpfAppUi_Entities.AssemblyInfoInputs.cache
+E:\Repo\WpfApp-UI\WpfApp_Api\WpfAppUi_Entities\obj\Debug\netcoreapp3.1\WpfAppUi_Entities.AssemblyInfo.cs
+E:\Repo\WpfApp-UI\WpfApp_Api\WpfAppUi_Entities\obj\Debug\netcoreapp3.1\WpfAppUi_Entities.csproj.CoreCompileInputs.cache
+E:\Repo\WpfApp-UI\WpfApp_Api\WpfAppUi_Entities\obj\Debug\netcoreapp3.1\WpfAppUi_Entities.dll
+E:\Repo\WpfApp-UI\WpfApp_Api\WpfAppUi_Entities\obj\Debug\netcoreapp3.1\WpfAppUi_Entities.pdb

@@ -1,25 +1,16 @@
-﻿using System;
+﻿using MediatR;
+using System;
 using System.Collections.Generic;
 using System.Data;
 using System.Linq;
-using System.Net.Http;
-using System.Net.Http.Headers;
-using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
 using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
-using System.Windows.Shapes;
 using WpfAppUi_Entities.Entities;
-using WpfAppUi_Entities.Interface;
-
-
+using WpfAppUi_Services.Commands.ItemCommands;
+using WpfAppUi_Services.Queries.ItemQueries;
 
 namespace WpfApp_Ui
 {
@@ -28,13 +19,48 @@ namespace WpfApp_Ui
     /// </summary>
     public partial class ItemForm : Window
     {
-        public readonly IItemPropertyResponseObjRepo itemPropertyResponseObjRepo;
-        public ItemForm(IItemPropertyResponseObjRepo itemPropertyResponseObjRepo)
+
+
+        #region Repository Procedures
+        public async Task<IEnumerable<ItemPropertyResponseObj>> GetItem(int ListId)
         {
-            this.itemPropertyResponseObjRepo = itemPropertyResponseObjRepo;
-            InitializeComponent();
+            var query = new GetItemQuery(ListId);
+            var data = await _mediator.Send(query);
+            return data;
         }
 
+        public async Task<string> InsertItem(ItemPropertyResponseObj itemPropertyResponseObj)
+        {
+            var query = new InsertItemCommand(itemPropertyResponseObj);
+            var data = await _mediator.Send(query);
+            return data.ToString(); ;
+        }
+
+        public async Task<string> UpdateItem(ItemPropertyResponseObj itemPropertyResponseObj)
+        {
+            var query = new UpdateItemCommand(itemPropertyResponseObj);
+            var data = await _mediator.Send(query);
+            return data;
+        }
+
+        public async Task<string> DeleteItemByItemId(int itemId)
+        {
+            var query = new DeleteItemByItemIdCommand(itemId);
+            var data = await _mediator.Send(query);
+            return data.ToString(); ;
+        }
+
+        public async Task<string> DeleteItemByListId(int listId)
+        {
+            var query = new DeleteItemByListIdCommand(listId);
+            var data = await _mediator.Send(query);
+            return data.ToString(); ;
+        }
+
+        #endregion
+
+
+        #region Other Procedures
         public void ClearItemInfoTextboxes()
         {
             txtItemID.Text = "";
@@ -66,7 +92,7 @@ namespace WpfApp_Ui
         {
             int listID = Convert.ToInt32(txtListID.Text);
 
-            var data = await itemPropertyResponseObjRepo.GetItems(listID);
+            var data = await GetItem(listID);
 
             DataTable dataTable = new DataTable();
 
@@ -91,7 +117,6 @@ namespace WpfApp_Ui
 
         public void FetchItemProperty(ItemPropertyResponseObj ItemPropertyResponseObj)
         {
-
             string lid = txtListID.Text;
             int itemStatus = ConvertStatusToInt(cboStatus.Text);
             ItemPropertyResponseObj.ListID = Int16.Parse(lid);
@@ -108,6 +133,14 @@ namespace WpfApp_Ui
                 string id = txtItemID.Text.ToString();
                 ItemPropertyResponseObj.ItemID = Int16.Parse(id);
             }
+        }
+        #endregion
+
+        private readonly IMediator _mediator;
+        public ItemForm(IMediator mediator)
+        {
+            this._mediator = mediator;
+            InitializeComponent();
         }
 
         private void Window_Loaded(object sender, RoutedEventArgs e)
@@ -192,7 +225,7 @@ namespace WpfApp_Ui
             {
 
                 //Insert new item
-                response = await itemPropertyResponseObjRepo.InsertItem(itemPropertyResponseObj);
+                response = await InsertItem(itemPropertyResponseObj);
                 if (response == "OK")
                 {
                     MessageBox.Show("New item added");
@@ -208,7 +241,7 @@ namespace WpfApp_Ui
             else
             {
                 //Update current record
-                response = await itemPropertyResponseObjRepo.UpdateItem(itemPropertyResponseObj);
+                response = await UpdateItem(itemPropertyResponseObj);
                 if (response == "OK")
                 {
                     MessageBox.Show("Udpated item.");
@@ -240,7 +273,7 @@ namespace WpfApp_Ui
             if (result == MessageBoxResult.Yes)
             {
 
-                response = await itemPropertyResponseObjRepo.DeleteItemByItemID(ItemID);
+                response = await DeleteItemByItemId(ItemID);
                 //Delete item detail also
 
                 if (response == "OK")

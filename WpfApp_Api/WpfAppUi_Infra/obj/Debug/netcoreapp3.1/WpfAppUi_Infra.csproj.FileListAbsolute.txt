@@ -10,3 +10,15 @@ C:\Users\Brianna Louie\source\repos\WpfApp_Api\WpfAppUi_Infra\obj\Debug\netcorea
 C:\Users\Brianna Louie\source\repos\WpfApp_Api\WpfAppUi_Infra\obj\Debug\netcoreapp3.1\WpfAppUi_Infra.csproj.CopyComplete
 C:\Users\Brianna Louie\source\repos\WpfApp_Api\WpfAppUi_Infra\obj\Debug\netcoreapp3.1\WpfAppUi_Infra.dll
 C:\Users\Brianna Louie\source\repos\WpfApp_Api\WpfAppUi_Infra\obj\Debug\netcoreapp3.1\WpfAppUi_Infra.pdb
+E:\Repo\WpfApp-UI\WpfApp_Api\WpfAppUi_Infra\bin\Debug\netcoreapp3.1\WpfAppUi_Infra.deps.json
+E:\Repo\WpfApp-UI\WpfApp_Api\WpfAppUi_Infra\bin\Debug\netcoreapp3.1\WpfAppUi_Infra.dll
+E:\Repo\WpfApp-UI\WpfApp_Api\WpfAppUi_Infra\bin\Debug\netcoreapp3.1\WpfAppUi_Infra.pdb
+E:\Repo\WpfApp-UI\WpfApp_Api\WpfAppUi_Infra\bin\Debug\netcoreapp3.1\WpfAppUi_Entities.dll
+E:\Repo\WpfApp-UI\WpfApp_Api\WpfAppUi_Infra\bin\Debug\netcoreapp3.1\WpfAppUi_Entities.pdb
+E:\Repo\WpfApp-UI\WpfApp_Api\WpfAppUi_Infra\obj\Debug\netcoreapp3.1\WpfAppUi_Infra.csprojAssemblyReference.cache
+E:\Repo\WpfApp-UI\WpfApp_Api\WpfAppUi_Infra\obj\Debug\netcoreapp3.1\WpfAppUi_Infra.AssemblyInfoInputs.cache
+E:\Repo\WpfApp-UI\WpfApp_Api\WpfAppUi_Infra\obj\Debug\netcoreapp3.1\WpfAppUi_Infra.AssemblyInfo.cs
+E:\Repo\WpfApp-UI\WpfApp_Api\WpfAppUi_Infra\obj\Debug\netcoreapp3.1\WpfAppUi_Infra.csproj.CoreCompileInputs.cache
+E:\Repo\WpfApp-UI\WpfApp_Api\WpfAppUi_Infra\obj\Debug\netcoreapp3.1\WpfAppUi_Infra.csproj.CopyComplete
+E:\Repo\WpfApp-UI\WpfApp_Api\WpfAppUi_Infra\obj\Debug\netcoreapp3.1\WpfAppUi_Infra.dll
+E:\Repo\WpfApp-UI\WpfApp_Api\WpfAppUi_Infra\obj\Debug\netcoreapp3.1\WpfAppUi_Infra.pdb

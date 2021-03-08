@@ -1,62 +1,85 @@
-﻿using System;
+﻿using MediatR;
+using System;
 using System.Collections.Generic;
 using System.Data;
-using System.Linq;
-using System.Net.Http;
-using System.Net.Http.Headers;
-using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
 using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
-using System.Windows.Shapes;
 using WpfAppUi_Entities.Entities;
 using WpfAppUi_Entities.Interface;
+using WpfAppUi_Services;
+using WpfAppUi_Services.Commands.ItemCommands;
+using WpfAppUi_Services.Commands.ListCommands;
 
 namespace WpfApp_Ui
 {
-    /// <summary>
-    /// Interaction logic for MainWindow.xaml
-    /// </summary>
     public partial class MainWindow : Window
-    {
+    {        
+        private readonly IMediator mediator;
 
-        public readonly IListPropertyResponseObjRepo listPropertyResponseObjRepo;
-        public readonly IItemPropertyResponseObjRepo itemPropertyResponseObjRepo;
-
-
-        public MainWindow(IListPropertyResponseObjRepo listPropertyResponseObjRepo, IItemPropertyResponseObjRepo itemPropertyResponseObjRepo)
+        public MainWindow(IItemPropertyResponseObjRepo itemPropertyResponseObjRepo, IMediator mediator)
         {
-            this.listPropertyResponseObjRepo = listPropertyResponseObjRepo;
-            this.itemPropertyResponseObjRepo = itemPropertyResponseObjRepo;
+            this.mediator = mediator;
             InitializeComponent();
         }
 
+        #region Repository Procedures
+        public async Task<IEnumerable<ListPropertyResponseObj>> GetList()
+        {
+            var query = new GetListQuery();
+            var data = await mediator.Send(query);
+            return (IEnumerable<ListPropertyResponseObj>)data;
+        }
+
+        public async Task<string> InsertList(ListPropertyResponseObj listPropertyResponseObj)
+        {
+            var query = new InsertListCommand(listPropertyResponseObj);
+            var data = await mediator.Send(query);
+            return data.ToString(); ;
+        }
+
+        public async Task<string> UpdateList(ListPropertyResponseObj listPropertyResponseObj)
+        {
+            var query = new UpdateListCommand(listPropertyResponseObj);
+            var data = await mediator.Send(query);
+            return data.ToString(); ;
+        }
+
+        public async Task<string> DeleteList(int ListId)
+        {
+            var query = new DeleteListCommand(ListId);
+            var data = await mediator.Send(query);
+            return data.ToString(); ;
+        }
+
+        public async Task<string> DeleteitemByListId(int ListId)
+        {
+            var query = new DeleteItemByListIdCommand(ListId);
+            var data = await mediator.Send(query);
+            return data.ToString(); ;
+        }
+
+        #endregion
+
+        #region Other Procedures
         public void clear_itemInfo_txtboxes()
         {
             txtItemID.Text = "";
             txtItemName.Text = "";
             txtItemDesc.Text = "";
         }
-
         public async void PopulateListview()
         {
-            //listPropertyResponseObjRepo.GetLists();
-            var data = await listPropertyResponseObjRepo.GetLists();
-
+            var data = await GetList();
             DataTable dataTable = new DataTable();
 
             dataTable.Columns.Add("ListID");
             dataTable.Columns.Add("ListName");
             dataTable.Columns.Add("ListDesc");
 
-            foreach (var list in data.ToList())
+            foreach (var list in data)
             {
                 var row = dataTable.NewRow();
 
@@ -72,7 +95,7 @@ namespace WpfApp_Ui
         public void FetchListProperty(ListPropertyResponseObj ListPropertyResponseObj)
         {
             ListPropertyResponseObj.ListName = txtItemName.Text;
-            ListPropertyResponseObj.ListDesc = txtItemDesc.Text;   
+            ListPropertyResponseObj.ListDesc = txtItemDesc.Text;
 
             if (txtItemID.Text.Trim() == string.Empty)
             {
@@ -84,7 +107,8 @@ namespace WpfApp_Ui
                 ListPropertyResponseObj.ListID = Int16.Parse(id);
             }
         }
-        
+        #endregion
+
         private void Window_Loaded(object sender, RoutedEventArgs e)
         {
             PopulateListview();
@@ -160,7 +184,7 @@ namespace WpfApp_Ui
             string iid = txtItemID.Text;
 
             //Populate item form
-            ItemForm itemForm = new ItemForm(itemPropertyResponseObjRepo);
+            ItemForm itemForm = new(mediator);
             itemForm.txtListID.Text = iid.ToString();
             itemForm.ShowDialog();
         }
@@ -177,7 +201,7 @@ namespace WpfApp_Ui
             if (listPropertyResponseObj.ListID == 0)
             {
                 //Add new List
-                response = await listPropertyResponseObjRepo.InsertList(listPropertyResponseObj);
+                response = await InsertList(listPropertyResponseObj);
 
                 if (response == "OK")
                 {
@@ -193,7 +217,7 @@ namespace WpfApp_Ui
             else
             {
                 //Update current record
-                response = await listPropertyResponseObjRepo.UpdateList(listPropertyResponseObj);
+                response = await UpdateList(listPropertyResponseObj);
 
                 if (response == "OK")
                 {
@@ -207,7 +231,6 @@ namespace WpfApp_Ui
                 }
             }
         }
-
        
         private async void btnRemove_Click(object sender, RoutedEventArgs e)
         {
@@ -223,14 +246,16 @@ namespace WpfApp_Ui
             int listID = Int16.Parse(lid);
             
             string response;
+            string itemResponse;
 
             if (result == MessageBoxResult.Yes)
             {
 
-                response = await listPropertyResponseObjRepo.Deletelist(listID);
+                response = await DeleteList(listID);
+                itemResponse = await DeleteitemByListId(listID);
                 //Delete item detail also
 
-                if (response == "OK")
+                if (response == "OK" && itemResponse == "OK")
                 {
                     MessageBox.Show($"Deleted List. {response}");
                     PopulateListview();
